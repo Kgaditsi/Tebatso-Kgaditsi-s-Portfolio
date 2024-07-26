@@ -85,3 +85,24 @@ section h2 {
 .project p strong {
     color: #6e581a;
 }
+
+#skills {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure this section takes up full height of the viewport */
+    box-sizing: border-box;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+#skills ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
