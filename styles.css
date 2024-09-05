@@ -201,10 +201,27 @@ section h2 {
     #contact a {
         font-size: 14px;
     }
-    footer {
+    
+}
+/* Footer styles */
+footer {
     text-align: center;
     padding: 10px;
     background-color: #97064a;
     color: white;
 }
+
+/* Responsive footer styles */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 20px;
+        font-size: 12px;
+    }
 }
